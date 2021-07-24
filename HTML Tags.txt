@@ -12,3 +12,24 @@ If you have used an open tag <tag>, then you must use a close tag </tag> (except
 
 For the list of tags in HTML kindly ref the link mention below,
  ->https://www.javatpoint.com/html-tags
+ ->https://www.tutorialspoint.com/html
+ ->https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+ ->https://www.w3schools.com/tags
+
+All about Meta tags:
+The <meta> tag is used to provide such additional information like,
+1. Specifying Keywords
+2. Document Description
+3. Document Revision Date
+4. Document Refreshing
+5. Page Redirection
+6. Setting Cookies
+7. Setting Author Name
+8. Specify Character Set etc...
+
+This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
+ref:- 
+https://www.tutorialspoint.com/html/html_meta_tags.htm
+https://www.w3schools.com/tags/tag_meta.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+https://www.javatpoint.com/html-meta-tag

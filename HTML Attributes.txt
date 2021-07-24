@@ -50,3 +50,10 @@ Example:
 2.Value attribute
 The value attribute is nothing but align attribute
 The align attribute have 3 variables like “left” , ”right” , ”center”
+
+
+Ref for list of Attributes:
+https://www.w3schools.com/html/html_attributes.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+https://www.javatpoint.com/html-attributes
+https://www.tutorialspoint.com/html/html_attributes.htm

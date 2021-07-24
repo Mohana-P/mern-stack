@@ -1,0 +1,53 @@
+HTML EDITORS
+
+INTRODUCTION :
+* Web pages can be created and modified by using professional HTML editors.
+* However, for learning HTML its recommend a simple text editor like Notepad or 
+ (PC) or Text Edit (Mac).
+* It is believed that using a simple text editor is a good way to learn HTML.
+What is an HTML Editor?
+* An HTML editor is a program for editing HTML, the markup of a web page. Although the HTML markup in a web page can be controlled with any text editor, specialized HTML editors can offer convenience and added functionality.
+* An HTML editor is a program for editing HTML, the markup of a web page. Although the HTML markup in a web page can be controlled with any text editor, specialized HTML editors can offer convenience and added functionality. For example, many HTML editors handle not only HTML, but also related technologies such as CSS, XML and JavaScript or ECMAScript. In some cases they also manage communication with remote web servers via FTP and WebDAV, and version control systems such as Subversion or Git. Many word processing, graphic design and page layout programs that are not dedicated to web design, such as Microsoft Word or Quark XPress, also have the ability to function as HTML editors.
+TYPES OF EDITORS: There are two main varieties of HTML editors: text and WYSIWYG (what you see is what you get) editors.
+
+
+Text editors
+Text editors  with HTML usually provide at least syntax highlighting. Some editors additionally feature templates, toolbars and keyboard shortcuts to quickly insert common HTML elements and structures. 
+Text editors commonly used for HTML typically include either built-in functions or integration with external tools for such tasks as version control, link-checking and validation, code cleanup and formatting, spell-checking, uploading by FTP or WebDAV, and structuring as a project. Some functions, such as link checking or validation may use online tools, requiring a network connection.
+Text editors require user understanding of HTML and any other web technologies the designer wishes to use like CSS, JavaScript and server-side scripting languages.
+To ease this requirement, some editors allow editing of the markup in more visually organized modes than simple color highlighting, but in modes not considered WYSIWYG. 
+
+EXAMPLES OF TEXT EDITORS 
+* 1) Brackets.io.
+* 2) Atom.
+* 3) Visual Studio Code.
+* 4) Sublime Text 3.
+* 5) Notepad++
+* 6) Vim.
+* 7) Komodo Edit.
+* 8) Froala.
+
+
+WYSIWYG (what you see is what you get)
+WYSIWYG is a system in which editing software allows content to be edited in a form that resembles its appearance when printed or displayed as a finished product,[2] such as a printed document, web page, or slide presentation.
+WYSIWYG editor or program is one that allows a developer to see what the end result will look like while the interface or document is being created. One of the trade-offs, however, is that an HTML WYSIWYG editor sometimes inserts the markup code it thinks is needed all on its own.
+The WYSIWYG Editor allows for a familiar experience of editing a page similar to that of many web applications and traditional word processors. The WYSIWYG editor allows users to generate HTML content for specific regions on the page, without needing to program in HTML directly.
+
+EXAMPLES OF WYSIWYG EDITORS
+1. Froala Editor.
+2. TinyMCE.
+3. Setka Editor.
+4. Shorthand.
+5. Bubble.
+6. Vev.
+7. Synap Editor.
+
+DIFFERENCE BETWEEN TEXT & WYSIWYG EDITOR
+A text editor is a software application that helps edit text.The more advanced editors are considered "WYSIWYG." In other words, you can see how the web page will look live on a web browser. The most advanced rich text editors will allow you to split the screen and see both a code and WYSIWYG view.
+
+THE HTML EDITOR USED BY US!
+VISUAL STUDIO CODE
+Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+It is a streamlined code editor with support for development operations like debugging, task running, and version control. It aims to provide just the tools a developer needs for a quick code-build-debug cycle and leaves more complex workflows to fuller featured IDEs, such as Visual Studio IDE. This editor works various computer programs such as C, C++, HTML, Python and java script etc.
+
+

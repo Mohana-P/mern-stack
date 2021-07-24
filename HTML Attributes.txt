@@ -1,0 +1,52 @@
+HTML ATTRIBUTES
+
+Attribute is used to define the characteristics of HTML
+It is placed inside the elements in open tag
+The attributes are two types
+
+1.Name attributes:
+
+All HTML elements can have attributes • 
+
+The href attribute of <a> specifies the URL of the page the link goes to that particular web page we mentioned in the tag 
+Example: <a href="https://www.w3schools.com">Visit W3Schools</a> • 
+
+The src attribute of <img> specifies the path to the selected image to be displayed 
+Example: <img src="img_girl.jpg"> • 
+
+The width and height attributes of <img> provide size information for images 
+Example: <img src="img_girl.jpg" width="500" height="600"> • 
+
+The alt attribute of <img> provides an alternate text for an image for example if the image for some reason cannot be displayed 
+Example: <img src="img_girl.jpg" alt="Girl with a jacket">
+
+if we want to display an image that does not exist the attribute should be like this <img src="img_typo.jpg" alt="Girl with a jacket"> • 
+
+The style attribute is used to add styles to an element, such as color, font, size, and more
+Example:
+<p style="color:red;">This is a red paragraph.</p>
+
+• The lang attribute of the <html> tag declares the language of the Webpage
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+
+Country code can also be added to the language code in the lang attribute
+The following example specifies English as the language and United States as the country
+Example:
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+
+• The title attribute defines some extra information about an element
+
+2.Value attribute
+The value attribute is nothing but align attribute
+The align attribute have 3 variables like “left” , ”right” , ”center”

@@ -1,0 +1,86 @@
+An introduction to HTML...............
+
+    HTML stands for HyperText Markup language. In simple lang., HTML is a heart of web designing or web application .
+when we see the abbreviation of HTML ,it consist of two words
+1)HyperText -means it will define a link between two web pages.
+2)Markup- means it will define text document in between tags which will show structure of web page after loading
+          in browser.
+So, basically HTML used by browser to handle and manipulate text,images,links and other contents 
+to display in browser in required format.And latest version of HTML is HTML5 used by most of browser nowdays.
+
+ Why HTML ? ..............
+
+HTML is easy to learn and easy to use.
+HTML is platform-independent.
+Images, videos, and audio can be added to a web page.
+Hypertext can be added to text.
+
+HTML is supported by all browsers.
+HTMLcan be integrated with other languages like CSS, JavaScript, etc.
+HTML is a simple markup language. Its implementation is easy.
+
+Helps in developing fundamentals about web programming.
+Boost professional career.
+
+
+
+ HOW HTML file LOOKS?................
+           
+           <!DOCTYPE html>
+           <html>
+           <head>
+           <title>Page Title</title>
+           </head>
+           <body>
+
+           <h1>My First Heading</h1>
+           <p>My first paragraph.</p>
+
+           </body>
+           </html>
+
+1) <DOCTYPE! html>: This is the document type declaration (not technically a tag). It declares a document as being 
+    an HTML document. The doctype declaration is not case-sensitive.
+
+2) <html>: This is called the HTML root element. All other elements are contained within it.
+3) <head>: The head tag contains the “behind the scenes” elements for a webpage. Elements within the head aren’t visible on
+     the front-end of a webpage. HTML elements used inside the <head> element include: 
+
+    <style>,<title>,<base>,<noscript>,<script>,<meta>,<link>
+
+4) <body>: the body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the
+              browser will show on the front-end.
+
+WHAT we can do with HTML??...............
+
+   -Web pages development
+   -Web document Creation
+   -Internet navigation
+   -Cutting edge feature
+   -Responsive images on web pages
+   -Client-side storage
+   -Offline capabilities usage
+   -Data Entry support with HTML
+
+
+Role of CSS and JAVAscript in HTML..................
+
+   CSS and JavaScript both are used on Web pages with HTML but for different roles. 
+   CSS is used to design the webpage for better layouts for the user, that the user can feel comfortable with the Web page.
+   JavaScript is used to create interaction between web pages and the user.
+
+CSS Features:
+
+     -CSS is compatible with all the devices.
+     -With the help of CSS, website maintenance is easy and faster.
+    - CSS support consistent and spontaneous changes.
+    -CSS makes the website faster and enhances search engine capabilities to crawl the web pages.
+     -It holds a special feature that is the ability to re-position.
+
+JavaScript Features:
+
+    -JavaScript was created in the first place for DOM manipulation. Earlier websites were mostly static after JavaScript it was created dynamic Web sites.
+    - Functions in JS are objects. They may have properties and methods just like another object. They can be passed as arguments in other functions.
+     -It can handle date and time.
+    - Performs Form Validation although the forms are created using HTML.
+     -No compiler needed.

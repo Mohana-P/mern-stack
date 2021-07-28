@@ -1,6 +1,6 @@
 table{
-    margin-left: 320px;
-     width: 70%;
+    margin-left: 100px;
+     width: 80%;
      border-collapse: collapse;
     
  }
@@ -31,7 +31,8 @@ table{
        column-width: 3.5em;
        text-align: left;
        transform: rotate(-90deg);
-   }
+       transform-origin: center;  
+    }
    .border{
     border-left:2px solid black;
     }
@@ -54,4 +55,4 @@ table{
    .margin{
        border-left: 2px solid black;
    }
-   
+ 

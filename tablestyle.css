@@ -11,35 +11,39 @@ table{
        height: 3em;
    }
    #computer{
-     border-left: 2px solid black;
-      border-bottom: 2px solid black;
+       padding: 20px;   
+       border-left: 3px solid black;
+       border-bottom: 3px solid black;
        text-align: Center;
-       height: 2em; 
+       height: 10px; 
        
        }
    #phone{
-       border-left: 2px solid black;
+        padding: 20px;
+       border-left: 3px solid black;
        border-right: 1px solid black;
-      border-bottom: 2px solid black;
+      border-bottom: 3px solid black;
       text-align: Center;
        height: 2em;
        
    }
    .heading{
-       white-space: nowrap;
-       border:1px solid black;
+       height: 15em;
+        white-space: nowrap;
+       border-right:1px solid black;
        column-width: 3.5em;
-       text-align: left;
+       text-align: center;
        transform: rotate(-90deg);
-       transform-origin: center;  
+      
     }
    .border{
-    border-left:2px solid black;
+    border-left:3px solid black;
     }
    .sideheadings{
+       font-size: 20px;
        background-color:rgb(243, 240, 237);
        border-top: 1px solid black;
-       border-right: 2px solid black;
+       border-right: 3px solid black;
        text-align: left;
        width: 12em;
        padding-left: 25px;
@@ -50,9 +54,13 @@ table{
        border-top: 1px solid black;
        border-right: 1px solid black;
        text-align: center;
-       width: 3em;
+       width: 3.5em;
+       font-size: large;
        }
    .margin{
-       border-left: 2px solid black;
+       border-left: 3px solid black;
+   }
+   a{
+       font-size:x-large
    }
  

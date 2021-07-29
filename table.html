@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank" title="scroll down the directed page to get table"> reference</a>
     <link rel="stylesheet" href="./tablestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
@@ -17,11 +16,13 @@
         <thead>
             <tr>
             <td rowspan="2"></td>
-            <td colspan="6" id="computer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAABZWVmNjY3FxcVKSkolJSXv7+9TU1P19fW5ubkoKCigoKB+fn7e3t7y8vKTk5Nvb2+0tLTT09NDQ0OqqqrZ2dk6OjqDg4N0dHTLy8teXl5EREQbGxsRERFlZWXn5+cyMjIUFBReja89AAACbUlEQVR4nO3d7VbaQBCA4ZDQBoIJYJAgfqDe/0VWlCDtKc0yzMxu2/f5HYd9BUGP50yyDAAAAAAAAAAAAAAAAAAAAMAfNFWdx1NXjXHfbT6KLb817GtXsfM+rFqrwLvYaUd3NoGL2F0nFhaBN7GrfnKjH7iO3fSLtXrhyZtM9y2W7usQK+3A8XH0Zj3VHh5sut4czzFWnr3sB2+VB19q2x9kqTy4n2v2URSs7Y+iO7b/ztW6Y0Vqk1fTIpmn8OtJ1P1MLExeGUKHsxSqQyl0RaEIha4oFKHQFYUiFLqiUIRCVxSKUOiKQhEKXVEoQqErCkUodEWhCIWuKBSh0BWFIhS6olCEQlcUilDoikIRCl1RKEKhKwpFKHRFoQiFrigUodAVhSIUuqJQhEJXFIpQ6Mq0sB3H15oWpoRCCimML9HC+8291qgkC7v9Vpl1N3xhCN1CpQ1Kn6sstsMXhtDdGlGpnCk/TNNZiVapFmbDDxigXymzHL40gG5g9qBxptfyY1b5qjHsQblwPPyQAT43dOlsDdPeopQ9qhyraMpG5335UTswa1TO9f5KVZpjsCEynZ2CeyZ7BVNKNFqcuH2KHXbwZLdSLY3diQY7E09U9a77Hm6mdE2v29XKv8r8zrwMN58Ou2iefd6FqhCxD3mV54Afq+fYh7zKLKBwFvuQV6GQwvRRSGH6KKQwfRRSmD4KKUzfv1HY7Cbn5EF/4+dnv35nfe+jIO1wwxVSWOSv9D/rM9RvRXK5qWngaBTvhij/T2E2MQ2cxM579/JmGPj2Ejtvb16Y3SqvKGPHAQAAAAAAAAAAAAAAAAAAAH+bH8T7MixQHkleAAAAAElFTkSuQmCC" width="30"></th>
-            <td colspan="6" id="phone"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwHYA7XjXXmaemsotLra4GKHUV69hOojmPA&usqp=CAU" width="25"></th>
+            <!-- <td colspan="6" id="computer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAABZWVmNjY3FxcVKSkolJSXv7+9TU1P19fW5ubkoKCigoKB+fn7e3t7y8vKTk5Nvb2+0tLTT09NDQ0OqqqrZ2dk6OjqDg4N0dHTLy8teXl5EREQbGxsRERFlZWXn5+cyMjIUFBReja89AAACbUlEQVR4nO3d7VbaQBCA4ZDQBoIJYJAgfqDe/0VWlCDtKc0yzMxu2/f5HYd9BUGP50yyDAAAAAAAAAAAAAAAAAAAAMAfNFWdx1NXjXHfbT6KLb817GtXsfM+rFqrwLvYaUd3NoGL2F0nFhaBN7GrfnKjH7iO3fSLtXrhyZtM9y2W7usQK+3A8XH0Zj3VHh5sut4czzFWnr3sB2+VB19q2x9kqTy4n2v2URSs7Y+iO7b/ztW6Y0Vqk1fTIpmn8OtJ1P1MLExeGUKHsxSqQyl0RaEIha4oFKHQFYUiFLqiUIRCVxSKUOiKQhEKXVEoQqErCkUodEWhCIWuKBSh0BWFIhS6olCEQlcUilDoikIRCl1RKEKhKwpFKHRFoQiFrigUodAVhSIUuqJQhEJXFIpQ6Mq0sB3H15oWpoRCCimML9HC+8291qgkC7v9Vpl1N3xhCN1CpQ1Kn6sstsMXhtDdGlGpnCk/TNNZiVapFmbDDxigXymzHL40gG5g9qBxptfyY1b5qjHsQblwPPyQAT43dOlsDdPeopQ9qhyraMpG5335UTswa1TO9f5KVZpjsCEynZ2CeyZ7BVNKNFqcuH2KHXbwZLdSLY3diQY7E09U9a77Hm6mdE2v29XKv8r8zrwMN58Ou2iefd6FqhCxD3mV54Afq+fYh7zKLKBwFvuQV6GQwvRRSGH6KKQwfRRSmD4KKUzfv1HY7Cbn5EF/4+dnv35nfe+jIO1wwxVSWOSv9D/rM9RvRXK5qWngaBTvhij/T2E2MQ2cxM579/JmGPj2Ejtvb16Y3SqvKGPHAQAAAAAAAAAAAAAAAAAAAH+bH8T7MixQHkleAAAAAElFTkSuQmCC" width="30"></th>
+            <td colspan="6" id="phone"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwHYA7XjXXmaemsotLra4GKHUV69hOojmPA&usqp=CAU" width="25"></th> -->
+            <td colspan="6" id="computer"><i class="fa fa-desktop fa-2x"></i></td>
+            <td colspan="6" id="phone"><i class="fa fa-mobile fa-3x"></i></td>
             </tr>
             
-            <tr style="height: 16em">    
+            <tr>    
             <th class="heading"><i class="fa fa-chrome"></i>  Chrome</th>
             <th class="heading"><i class="fa fa-edge"></i>  Edge</th>
             <th class="heading"><i class="fa fa-firefox"></i>  Firefox</th>
@@ -191,5 +192,6 @@
             
         </tbody>
     </table>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank" title="scroll down the directed page to get table"> reference</a>
 </body>
 </html>

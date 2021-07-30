@@ -14,11 +14,11 @@ hr{
     border-radius: 5px;
 }
 #body{
-    
     margin-top: 75px;
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 30px;
+    color: #bbbbbb;
 }
 
 #resume{
@@ -38,16 +38,22 @@ hr{
 }
 .lengthy{
     width: 500px;
-}
-label{
-    color: #bbbbbb;
-}
-p{
-    color: #bbbbbb;
 }        
 .name{
     width: 45%;
 }
 .middle{
    float: right;
+}
+#foot{
+    width: 92.5%;
+    height: 15em;
+    margin-top: 10em;
+    background-color: #333;
+    text-align: center;
+    padding: 50px;
+    color: #8da4c3;
+}
+.contact{
+    font-size: large; color: #dbdbdb;
 }

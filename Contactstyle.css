@@ -1,0 +1,65 @@
+#top{
+margin-top: 8%;
+width: 92.5%;
+height: 8em;
+background-color: rgb(41, 54, 73);
+text-align: center;
+font-family: sans-serif;
+word-spacing: 1.6px;
+padding: 50px;
+color: #fff;
+background-image: url(./background\ image.jpg);
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+#matter{
+    
+    height: 15em;
+    margin-top: 5em;
+    padding: 5em 12.5em 3em 12.5em;
+}
+hr{
+    float: left;
+    width: 40px;
+    margin-top: -10px;
+    border-color: #0bbff2;
+
+}
+.left{
+    
+    font-weight: bold;
+    color: #4d4d4d;
+    background-image: url(./call-us-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: rgb(248, 248, 248);
+    width: 23em;
+    height: 14em;
+    float: left;
+    padding: 15px;
+}
+.right{
+    
+    background-image: url(./email-us-icon.png);
+    float: right;
+}
+.for{
+    color: #929292;
+}
+.data{
+    font-size: 20px;
+   color: #16bdb6; margin-top: -10px;
+}
+#link{ 
+    padding-left: 15em;
+    padding-right: 15em;
+    /* font-size: 20px; */
+    margin-bottom: 500px;
+}
+button{
+    height: 35px;
+    width: 15em;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #0bbff2;
+}

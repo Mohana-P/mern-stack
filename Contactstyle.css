@@ -1,7 +1,5 @@
 #top{
 margin-top: 8%;
-width: 92.5%;
-height: 8em;
 background-color: rgb(41, 54, 73);
 text-align: center;
 font-family: sans-serif;
@@ -13,9 +11,10 @@ background-repeat: no-repeat;
 background-position: bottom right;
 }
 #matter{
-    height: 15em;
-    margin-top: 5em;
-    padding: 5em 12.5em 3em 12.5em;
+    border: black 1px solid;
+    height: 16em;
+    margin-top: 3em;
+    padding: 3em 12.5em 3em 12.5em;
 }
 hr{
     float: left;
@@ -51,12 +50,12 @@ hr{
 #link{ 
     margin-top: 0.1%;
     height: 35px;
-    padding: 1em 15em 1em 15em;
+    padding: 1em 17em 1em 17em;
 }
 button{
-    height: 35px;
+    height: 30px;
     width: 15em;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     background-color: #0bbff2;
 }

@@ -13,7 +13,6 @@ background-repeat: no-repeat;
 background-position: bottom right;
 }
 #matter{
-    
     height: 15em;
     margin-top: 5em;
     padding: 5em 12.5em 3em 12.5em;
@@ -26,7 +25,6 @@ hr{
 
 }
 .left{
-    
     font-weight: bold;
     color: #4d4d4d;
     background-image: url(./call-us-icon.png);
@@ -51,10 +49,9 @@ hr{
    color: #16bdb6; margin-top: -10px;
 }
 #link{ 
-    padding-left: 15em;
-    padding-right: 15em;
-    /* font-size: 20px; */
-    margin-bottom: 500px;
+    margin-top: 0.1%;
+    height: 35px;
+    padding: 1em 15em 1em 15em;
 }
 button{
     height: 35px;
@@ -62,4 +59,14 @@ button{
     font-size: 20px;
     border-radius: 5px;
     background-color: #0bbff2;
+}
+#connect{
+    background-color: #333;
+    text-align: center;
+    padding: 50px;
+    color: #8da4c3;
+    margin-top: 10em;
+}
+.contact{
+    font-size: large; color: #dbdbdb;
 }

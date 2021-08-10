@@ -41,4 +41,7 @@ input{
 .contact{
     font-size: large; color: #dbdbdb;
 }
+a{
+    text-decoration: none;
+}
 

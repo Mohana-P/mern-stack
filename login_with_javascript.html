@@ -1,0 +1,37 @@
+<html>
+
+ <head>
+
+ </head>
+
+  <body>
+
+    <center> <form>
+          Username : <input type="text" id="username"> <span id="uname"></span> <br><br>
+          Password: <input type="password" id="password"><span id="pass"></span><br><br>
+          <button onclick="validate()">Submit</button>
+           <h1 id="msg"></h1>
+      </form></center>
+
+<html>
+<script>
+        
+          function validate(){
+             event.preventDefault();
+             var username = document.getElementById("username").value;
+             var password = document.getElementById("password").value;
+             var uname = document.getElementById("uname");
+             var pass = document.getElementById("pass");
+             var msg = document.getElementById("msg");
+               username == "" ? uname.innerHTML ="uname cannot be empty" : uname.innerHTML=""; 
+               password == "" ? pass.innerHTML ="password cannot be empty" : password.innerHTML=""; 
+                username.length< 5? uname.innerHTML="should contain atleast 5 characters": uname.innerHTML="";
+                username == "sai123" && password == "ravi123" ? msg.innerHTML="Login Success"  : msg.innerHTML ="Login Failure";
+               
+          }
+        
+        </script>
+
+  </body>
+
+</html>

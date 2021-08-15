@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+
+     <center><body style="margin-top: 15px; padding: 15px; font-size: large;">
+
+         Username : <input type="text" id="email" placeholder="enter registered email">
+          <button onclick="checkEmail()">Submit</button>
+
+          <script>
+          
+               function checkEmail(){
+               var email =  document.getElementById("email").value;               
+                email =  email.trim().toLowerCase();
+               document.getElementById("email").value = email;
+               }
+          </script>
+
+     </body></center>
+</html>

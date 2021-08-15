@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Basic Scripting</title>
+    <style>
+    div{
+        text-align: center;
+        margin: 45px 25%;
+        padding: 15px;           
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <i onclick="Like()" id="like" style="font-size: 50px; color: gray;" class="fa fa-thumbs-up"></i> <span id="likes_count">50</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <i onclick="DisLike()" id="dislike" style="font-size: 50px; color: gray;" class="fa fa-thumbs-down"></i> <span id="dislikes_count">30</span>
+    </div>
+    <script>
+        var likes=50;
+        var dislikes=30;
+        function Like(){
+            if (document.getElementById("like").style.color=="gray") {
+                document.getElementById("like").style.color= "blue";
+                likes++;
+                document.getElementById("likes_count").innerHTML= likes;
+                document.getElementById("dislike").style.color= "gray";
+                document.getElementById("dislikes_count").innerHTML= dislikes;
+            } else {
+                document.getElementById("like").style.color= "gray";
+                likes--
+                document.getElementById("likes_count").innerHTML= likes;
+                document.getElementById("dislike").style.color= "gray";
+            }
+        }
+        function DisLike(){
+            if (document.getElementById("dislike").style.color=="gray") {
+                document.getElementById("likes_count").innerHTML= likes;
+                document.getElementById("dislike").style.color= "blue";
+                dislikes++;
+                document.getElementById("dislikes_count").innerHTML= dislikes;
+                document.getElementById("like").style.color= "gray";
+                
+            } else {
+                document.getElementById("dislike").style.color= "gray";
+                dislikes--
+                document.getElementById("dislikes_count").innerHTML= dislikes;
+                document.getElementById("like").style.color= "gray";
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+
+ <head>
+
+ </head>
+
+  <body>
+
+    <center> <form>
+          Username : <input type="text" id="username"> <span id="uname"></span> <br><br>
+          Password: <input type="password" id="password"><span id="pass"></span><br><br>
+          <button onclick="validate()">Submit</button>
+           <h1 id="msg"></h1>
+      </form></center>
+
+<html>
+<script>
+        
+          function validate(){
+             event.preventDefault();
+             var username = document.getElementById("username").value;
+             var password = document.getElementById("password").value;
+             var uname = document.getElementById("uname");
+             var pass = document.getElementById("pass");
+             var msg = document.getElementById("msg");
+               
+                if ((username == "sai" || username == "9010901019") && password == "sai") {
+                    msg.innerHTML="Login Success";
+                } else {
+                    msg.innerHTML ="Login Failure";
+                } 
+               
+          }
+        
+        </script>
+
+  </body>
+
+</html>
